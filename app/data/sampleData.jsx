@@ -1,0 +1,38 @@
+export const SAMPLE_DATA = [
+  {
+    id: 1,
+    courseTitle: "Computer Architecture",
+    courseCode: "COMP 301",
+    lecturer: "Dr. John Doe",
+    academicYear: "2024/2025",
+    semester: "Semester 1",
+    evaluated: false,
+  },
+  {
+    id: 2,
+    courseTitle: "Software Engineering",
+    courseCode: "COMP 305",
+    lecturer: "Prof. Jane Smith",
+    academicYear: "2024/2025",
+    semester: "Semester 1",
+    evaluated: false,
+  },
+  {
+    id: 3,
+    courseTitle: "Machine Learning",
+    courseCode: "COMP 410",
+    lecturer: "Dr. Alice Brown",
+    academicYear: "2024/2025",
+    semester: "Semester 2",
+    evaluated: false,
+  },
+  {
+    id: 4,
+    courseTitle: "Database Systems",
+    courseCode: "COMP 307",
+    lecturer: "Dr. Bob Wilson",
+    academicYear: "2024/2025",
+    semester: "Semester 2",
+    evaluated: false,
+  },
+];

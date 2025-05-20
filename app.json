@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "GCTU",
+    "slug": "gctu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/gctuLogo.png",
+    "scheme": "gctu",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/gctuLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/gctuLogo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/gctuLogo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "SUPABASE_URL": "https://wuytfncdssmtdfxiekzq.supabase.co",
+      "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind1eXRmbmNkc3NtdGRmeGlla3pxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIyMjM4NDAsImV4cCI6MjA1Nzc5OTg0MH0.cDLK7m9qOJjcRM9luAd3KZkgGvFv3yXsAV9ur0P6n4M",
+       "exchangeRateApiKey": "ebd61213c021ff0ac0adf562"
+
+    }
+  }
+}
