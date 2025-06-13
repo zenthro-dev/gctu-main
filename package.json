@@ -15,6 +15,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@babel/runtime": "^7.27.6",
     "@expo/vector-icons": "^14.0.2",
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-picker/picker": "2.9.0",
@@ -45,9 +46,11 @@
     "lucide-react": "^0.477.0",
     "lucide-react-native": "^0.477.0",
     "nativewind": "^4.1.23",
+    "prop-types": "^15.8.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.7",
+    "react-native-css-interop": "^0.1.22",
     "react-native-dotenv": "^3.4.11",
     "react-native-gesture-handler": "~2.20.2",
     "react-native-image-crop-tools": "^1.6.4",
