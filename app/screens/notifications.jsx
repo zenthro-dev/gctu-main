@@ -139,6 +139,7 @@ const Notifications = () => {
 
   const renderHeader = () => (
     <View style={styles.header}>
+      <StatusBar barStyle="light-content" translucent={true} />
       <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
         <Feather name="arrow-left" size={24} color="#0f172a" />
       </TouchableOpacity>
@@ -308,7 +309,7 @@ const styles = StyleSheet.create({
   },
   listContainer: {
     flexGrow: 1,
-    paddingHorizontal: 16,
+    paddingHorizontal:5,    
   },
   notificationItem: {
     flexDirection: "row",
@@ -317,6 +318,8 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     marginBottom: 0,
     position: "relative",
+    paddingHorizontal: 16,
+
   },
   unreadItem: {
     backgroundColor: "#f0f9ff",
@@ -391,6 +394,8 @@ const styles = StyleSheet.create({
   },
   selectedItem: {
     backgroundColor: "#e5e7eb",
+    // paddingHorizontal: 16,
+    width:'100%',
   },
   deleteButton: {
     paddingVertical: 6,
